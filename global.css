@@ -9,3 +9,7 @@ button {
     border-style: none;
     cursor: pointer;
 }
+
+svg {
+    cursor: pointer;
+}

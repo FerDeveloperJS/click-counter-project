@@ -1,0 +1,14 @@
+.menu-opened {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(107, 107, 121);
+    display: none;
+}
+
+.close-menu {
+    position: absolute;
+    left: 0;
+}

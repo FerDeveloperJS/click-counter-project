@@ -1,6 +1,16 @@
-h1 {
-    margin-bottom: 50px;
-    text-align: center;
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+svg {
+    position: absolute;
+    right: 1rem;
+    top: .8rem;
 }
 
 #counter {
