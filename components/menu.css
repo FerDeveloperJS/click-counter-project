@@ -12,3 +12,7 @@
     position: absolute;
     left: 0;
 }
+
+.dark-mode-on {
+    display: none;
+}

@@ -1,0 +1,19 @@
+body.dark-mode {
+    background-color: black;
+}
+
+header .open-menu.dark-mode {
+    color: #fff;
+}
+
+h1.dark-mode {
+    color: #fff;
+}
+
+#counter.dark-mode {
+    border: 3px solid rgb(255, 184, 196);
+}
+
+#counter h2.dark-mode {
+    color: #fff;
+}
