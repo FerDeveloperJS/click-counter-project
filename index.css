@@ -21,7 +21,7 @@ svg {
     padding: 5px;
 }
 
-#click-button {
+#click-button, #reset-button {
     margin: 0 auto 10px;
     display: block;
     padding: 10px;
