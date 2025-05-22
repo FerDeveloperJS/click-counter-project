@@ -6,6 +6,7 @@
     height: 100vh;
     background-color: rgb(107, 107, 121);
     display: none;
+    padding: 10px;
 }
 
 .close-menu {
@@ -15,4 +16,16 @@
 
 .dark-mode-on {
     display: none;
+}
+
+.menu-opened nav {
+    gap: 10px;
+    font-size: 1.4rem;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-opened nav a {
+    color: #fff;
 }

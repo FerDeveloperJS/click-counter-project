@@ -10,6 +10,11 @@ button {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 svg {
     cursor: pointer;
 }
+

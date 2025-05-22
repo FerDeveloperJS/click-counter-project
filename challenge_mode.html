@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Mode Click Counter</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="components/menu.css">
     <link rel="stylesheet" href="dark_mode.css">
-    <title>Click Counter</title>
+    <link rel="stylesheet" href="css/challenge_mode.css">
 </head>
 <body>
-
-    <header>
+        <header>
         <h1>Click Counter</h1>
         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list open-menu" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
@@ -45,9 +45,27 @@
     </div>
 
     <button id="click-button">Click</button>
-    <button id="reset-button">Reset</button>
 
+    <article class="timer-options">
+        <h3>Escoge el temporizador con el que quieres jugar</h3>
+        <div class="timer-buttons">
+            <button id="fifteen-seconds-timer-button">15s</button>
+            <button id="thirty-seconds-timer-button">30s</button>
+            <button id="sixty-seconds-timer-button">60s</button>
+        </div>
+
+        
+    </article>
+
+
+    <div id="timer-countdown">
+        <h3 id="h3-timer">Timer:</h3>
+    </div>
+    
+
+    
     <script src="index.js"></script>
     <script src="utils/menu.js"></script>
+    <script src="challenge_mode.js"></script>
 </body>
 </html>
